@@ -94,7 +94,7 @@ public class Lab5 extends GLJPanel implements GLEventListener, KeyListener{
 		gl2.glRotatef(rotateY,0,1,0);
 		gl2.glRotatef(rotateX,1,0,0);
 		
-		if(objectNumber==2) //Korkociąg
+		if(objectNumber==1) //Korkociąg
 		{
 			
 			gl2.glLineWidth(3);
@@ -116,7 +116,7 @@ public class Lab5 extends GLJPanel implements GLEventListener, KeyListener{
 			}
 			gl2.glEnd();
 		}
-		else if(objectNumber==3) //rysowanie piramidy o podstawie n=13
+		else if(objectNumber==2) //rysowanie piramidy o podstawie n=13
 		{
 			
 			gl2.glLineWidth(3);
