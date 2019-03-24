@@ -28,13 +28,7 @@ import javax.swing.JFrame;
 import java.lang.Math;
 
 
-/**
- * CPSC 424, Fall 2015, Lab 4:  Some objects in 3D.  The arrow keys
- * can be used to rotate the object.  The number keys 1 through 6
- * select the object.  The space bar toggles the use of anaglyph
- * stereo.
- */
-public class Lab5 extends GLJPanel implements GLEventListener, KeyListener{
+public class Grafika5 extends GLJPanel implements GLEventListener, KeyListener{
 
 	/**
 	 * 
@@ -61,7 +55,7 @@ public class Lab5 extends GLJPanel implements GLEventListener, KeyListener{
 	/**
 	 * Constructor for class Lab4.
 	 */
-	public Lab5() {
+	public GrafikaLab5() {
 		super( new GLCapabilities(null) ); // Makes a panel with default OpenGL "capabilities".
 		setPreferredSize( new Dimension(700,700) );
 		addGLEventListener(this); // This panel will respond to OpenGL events.
@@ -286,4 +280,4 @@ public class Lab5 extends GLJPanel implements GLEventListener, KeyListener{
 	public void keyTyped(KeyEvent evt) {
 	}
 
-} // end class Lab4
+}
